@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rifki Setiawan </title>
+</head>
+<body>
+    <script>
+        function nilaiGrade (nilaimu) {
+            switch(true) {
+            case nilaimu > 90:
+                document.write("Grade A")
+                break;
+                case nilaimu > 80:
+                    document.write("Grade B+")
+                    break;
+                    case nilaimu > 70:
+                        document.write("Grade B")
+                        break;
+                        case nilaimu <= 70:
+                            document.write("Garde F")
+                            break;
+                            default:
+                        alert("Input Salah");
+                        break;
+            }
+        }
+        nilai = prompt("Masukan Nilai?")
+        nilaiGrade(nilai)
+    </script>
+</body>
+</html>
